@@ -1,0 +1,45 @@
+body {
+    color: #fff;
+    background-color: #293133;
+}
+
+#world {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #000;
+}
+.wrapper {
+    margin-top: 150px;
+}
+
+
+#raiting {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: rgb(98, 219, 98);
+    padding: 5px 5px 5px 5px;
+}
+
+.snake {
+    transition: 0.09s;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.food {
+    border-radius: 50%;
+    background-color: green;
+}
+
+.excel {
+    width: 20px;
+    height: 20px;
+}
+
+.head {
+    background-color: beige;
+}
